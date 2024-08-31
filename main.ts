@@ -6,4 +6,4 @@ const handler = (_req: Request) => {
 
 export default {
     fetch: handler,
-};
+} satisfies Deno.ServeDefaultExport;
