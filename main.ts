@@ -1,5 +1,5 @@
 export default {
-    fetch: (_req) => {
+    fetch: () => {
         return new Response("Hello from smallweb!", {
             headers: { "content-type": "text/plain" },
         });
